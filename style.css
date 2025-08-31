@@ -34,9 +34,7 @@
   content: "";
   position: absolute;
   transform: translate(50%, 50%);
-  
 }
-
 
 .card::before {
   content: "";
@@ -74,8 +72,6 @@
   transform-style: preserve-3d;
   transition: transform 0.2s ease;
 }
-
-
 
 .card-image img {
   width: 100%;
@@ -115,7 +111,6 @@
   padding: 10px 0;
 }
 
-
 .card-footer {
   display: flex;
   justify-content: center;
@@ -138,7 +133,7 @@
   color: rgb(0, 0, 0);
 }
 
-/* .skill-container {
+.skill-container {
   width: 90%;
   max-width: 600px;
   margin: 2rem auto;
@@ -173,4 +168,4 @@
   line-height: 24px;
   border-radius: 10px 0 0 10px;
   transition: width 0.5s ease-in-out;
-} */
+}
